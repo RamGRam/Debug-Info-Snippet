@@ -3,9 +3,11 @@ A simple Js based debug-info-snippet for displaying information on console
 ![Demo Screen-shot](./Debud-info-console.png)
 
 ## Usage
-Just a function call!
+Inside the dbg.js edit the gloabl variable **Enable** = *0*/*1*. To enable the console message, supply a value that is *not equal to zero*. And to disable give the value 0.
 
-`dbg(LogInfo, "Message")`
+And finally use it as a function call with the parameters!
+
+`dbg(LogInfo, "Message");`
 
 Here **LogInfo** is used to display the type of log information(INFO, SUCCESS, etc.). And **Message** is the string/message we need to display!
 
