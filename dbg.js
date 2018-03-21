@@ -1,6 +1,6 @@
 // This code is for the purpose of debug only!
 
-//Global variable flag to either Enable(!0) or Disable(0) console, for use in production to disable console.
+//Global variable flag to either Enable(!0) or Disable(0) console.
 var Enable=1;
 
 function dbg(status_code,message){
