@@ -13,10 +13,15 @@ Here **LogInfo** is used to display the type of log information(INFO, SUCCESS, e
 Currently there are *Info*, *Success*, *Warning* and *Error* LogInfos implemented, feel free to add your own.
 
 |**LogInfo**|**String**|**Number**|
+---
 |*Information*|"i"|1|
+---
 |*Success*|"s"|2|
+---
 |*Warning*|"w"|3|
+---
 |*Error*|"e"|4|
+---
 
 ## Sample Code
 
