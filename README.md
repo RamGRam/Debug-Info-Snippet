@@ -1,8 +1,10 @@
 # Debug-Info-Snippet
 A simple Js based debug-info-snippet for displaying information on console
-![Demo Screen-shot](./Debud-info-console.png)
+![Demo Screen-shot](./images/Debud-info-console.png)
 
 ## Usage
-Just a function call
+Just a function call!
 
-`dbg(1, "Now some module is loaded")`
+`dbg(LogInfo, "Message")`
+
+Here LogInfo is used to display the type of log information(INFO, SUCCESS, etc.). And Message is the string/message we need to display!
